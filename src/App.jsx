@@ -6,6 +6,7 @@ export default function App() {
   return (
     <div>
       <Painting
+        key={username}
         username={username}
         tag={tag}
         location={location}
