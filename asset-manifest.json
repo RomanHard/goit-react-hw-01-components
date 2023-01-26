@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/RomanHard/goit-react-hw-01-components/static/css/main.3913b6de.css",
-    "main.js": "/RomanHard/goit-react-hw-01-components/static/js/main.1fa57638.js",
+    "main.js": "/RomanHard/goit-react-hw-01-components/static/js/main.b796967e.js",
     "index.html": "/RomanHard/goit-react-hw-01-components/index.html",
     "main.3913b6de.css.map": "/RomanHard/goit-react-hw-01-components/static/css/main.3913b6de.css.map",
-    "main.1fa57638.js.map": "/RomanHard/goit-react-hw-01-components/static/js/main.1fa57638.js.map"
+    "main.b796967e.js.map": "/RomanHard/goit-react-hw-01-components/static/js/main.b796967e.js.map"
   },
   "entrypoints": [
     "static/css/main.3913b6de.css",
-    "static/js/main.1fa57638.js"
+    "static/js/main.b796967e.js"
   ]
 }
