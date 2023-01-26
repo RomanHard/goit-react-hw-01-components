@@ -33,9 +33,13 @@ export default function Painting({
   );
 }
 
-Painting.PropTypes {
-    username : PropTypes.string,
-    tag : PropTypes.string,
-    location : PropTypes.string,
-    avatar : PropTypes.string,
-}
+Painting.propTypes = {
+  username: PropTypes.string,
+  tag: PropTypes.string,
+  location: PropTypes.string,
+  avatar: PropTypes.string,
+  stats: PropTypes.number,
+  followers: PropTypes.number,
+  views: PropTypes.number,
+  likes: PropTypes.number,
+};
