@@ -1,3 +1,5 @@
+import PropTypes from 'prop-types';
+
 export default function Painting({
   username,
   tag,
@@ -29,4 +31,11 @@ export default function Painting({
       </ul>
     </div>
   );
+}
+
+Painting.PropTypes {
+    username : PropTypes.string,
+    tag : PropTypes.string,
+    location : PropTypes.string,
+    avatar : PropTypes.string,
 }
