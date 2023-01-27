@@ -27,3 +27,9 @@ export default function Statics({ title, newStats }) {
     </section>
   );
 }
+
+Statics.propTypes = {
+  title: PropTypes.string.isRequired,
+  label: PropTypes.string.isRequired,
+  percentage: PropTypes.string.isRequired,
+};
