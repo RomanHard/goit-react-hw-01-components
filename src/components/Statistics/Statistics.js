@@ -4,7 +4,7 @@ import './statistic-module.css';
 export default function Statics({ title, newStats }) {
   return (
     <section className="statistics">
-      <h2 className="title">{title ?? { title }}</h2>
+      <h2 className="title"> {title}</h2>
 
       <ul className="stat-list">
         <li className="item">
