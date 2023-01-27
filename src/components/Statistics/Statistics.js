@@ -2,10 +2,10 @@ import PropTypes from 'prop-types';
 import './statistic-module.css';
 
 export default function Statics({ title, newStats }) {
+  const h2 = <h2 className="title"> {title}</h2>;
   return (
     <section className="statistics">
-      <h2 className="title"> {title}</h2>
-
+      {title && h2}
       <ul className="stat-list">
         <li className="item">
           <span className="label">{newStats[0].label}</span>
