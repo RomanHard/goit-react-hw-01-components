@@ -17,8 +17,11 @@ export default function App() {
         avatar={avatar}
         stats={stats}
       />
+      
       <Statistics title="Upload stats" newStats={data} />
+
       <FriendList friends={friends} />;
+
     </div>
   );
 }

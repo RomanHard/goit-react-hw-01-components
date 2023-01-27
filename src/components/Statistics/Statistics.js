@@ -30,6 +30,6 @@ export default function Statics({ title, newStats }) {
 
 Statics.propTypes = {
   title: PropTypes.string.isRequired,
-  label: PropTypes.string.isRequired,
-  percentage: PropTypes.string.isRequired,
+  label: PropTypes.string,
+  percentage: PropTypes.string,
 };
