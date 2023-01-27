@@ -44,14 +44,6 @@
   margin-bottom: 0;
 }
 
-.item {
-  display: block;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  border: 1px solid gainsboro;
-  text-align: center;
-}
-
 .label {
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
     'Lucida Sans Unicode', Geneva, Verdana, sans-serif;

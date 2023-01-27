@@ -21,10 +21,22 @@
   font-weight: 700;
   text-align: center;
   text-transform: uppercase;
+  margin-bottom: 15px;
+  margin-top: 15px;
 }
 
 .stat-list {
-  display: grid;
+  display: flex;
+  justify-content: space-around;
   gap: 5px;
   text-align: center;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+}
+
+.percentage {
+  margin: 15px;
 }
