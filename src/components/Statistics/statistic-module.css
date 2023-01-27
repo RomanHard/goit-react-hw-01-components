@@ -22,3 +22,9 @@
   text-align: center;
   text-transform: uppercase;
 }
+
+.stat-list {
+  display: grid;
+  gap: 5px;
+  text-align: center;
+}
