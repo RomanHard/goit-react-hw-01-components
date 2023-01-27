@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types';
 
-export default function Painting({ username, tag, location, avatar, stats }) {
+export default function Profile({ username, tag, location, avatar, stats }) {
   return (
     <div className="profile">
       <div className="description">
@@ -27,7 +27,7 @@ export default function Painting({ username, tag, location, avatar, stats }) {
   );
 }
 
-Painting.propTypes = {
+Profile.propTypes = {
   username: PropTypes.string.isRequired,
   tag: PropTypes.string.isRequired,
   location: PropTypes.string.isRequired,

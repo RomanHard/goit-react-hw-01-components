@@ -1,11 +1,11 @@
-import Painting from 'components/Painting';
+import Profile from 'components/Profile/Profile';
 import user from './user.json';
 
 export default function App() {
   const { username, tag, location, avatar, stats } = user;
   return (
     <div>
-      <Painting
+      <Profile
         key={username}
         username={username}
         tag={tag}
