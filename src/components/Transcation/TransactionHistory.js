@@ -1,8 +1,7 @@
 import PropTypes from 'prop-types';
-import transactions from './data/transactions.json';
 
-export default function TransactionHistory({ type, amount, currency }) {
-  return items.map(item => {
+export default function TransactionHistory(items) {
+   items.map({type, amount, currency} {
     return (
       <div>
         <table className="transaction-history">
@@ -27,5 +26,7 @@ export default function TransactionHistory({ type, amount, currency }) {
 }
 
 TransactionHistory.propTypes = {
- type: propTypes.
+  type: PropTypes.string.isRequired,
+  amount: PropTypes.number.isRequired,
+  currency: PropTypes.string.isRequired,
 };
