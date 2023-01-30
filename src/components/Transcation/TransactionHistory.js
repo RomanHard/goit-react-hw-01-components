@@ -1,32 +1,32 @@
 import PropTypes from 'prop-types';
+import HistoryItem from './HistoryItem';
 
-export default function TransactionHistory(items) {
-   items.map({type, amount, currency} {
-    return (
-      <div>
-        <table className="transaction-history">
-          <thead>
-            <tr>
-              <th>Type</th>
-              <th>Amount</th>
-              <th>Currency</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>{type}</td>
-              <td>{amount}</td>
-              <td>{currency}</td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-    );
-  });
+export default function TransactionHistory({ items }) {
+  return (
+    <div>
+      <table className="transaction-history">
+        <thead>
+          <tr>
+            <th>Type</th>
+            <th>Amount</th>
+            <th>Currency</th>
+          </tr>
+        </thead>
+        {items.map(item => {
+          return (
+            <HistoryItem
+              key={item.id}
+              type={item.type}
+              amount={item.amount}
+              currency={item.currency}
+            />
+          );
+        })}
+      </table>
+    </div>
+  );
 }
 
 TransactionHistory.propTypes = {
-  type: PropTypes.string.isRequired,
-  amount: PropTypes.number.isRequired,
-  currency: PropTypes.string.isRequired,
+  items: PropTypes.array.isRequired,
 };
