@@ -1,5 +1,6 @@
 import PropTypes from 'prop-types';
 import HistoryItem from './HistoryItem';
+import './TransactionHistory.module.css';
 
 export default function TransactionHistory({ items }) {
   return (
