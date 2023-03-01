@@ -4,8 +4,9 @@ import './Friends-module.css';
 export default function FriendListItem({ avatar, name, isOnline }) {
   return (
     <li className="item">
-      {/* <span className="status">{isOnline}</span> */}
-      <span className={isOnline ? 'statusOnline' : 'statusOffline'}></span>
+      <span
+        className={`status ${isOnline ? 'statusOnline' : 'statusOffline'}`}
+      ></span>
       <img
         className="avatar_friends"
         src={avatar}

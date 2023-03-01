@@ -10,19 +10,18 @@
   width: 20%;
 }
 
-.statusOnline {
+.status {
+  display: block;
   width: 12px;
   height: 12px;
   border-radius: 50%;
   margin-right: 8px;
+}
+.statusOnline {
   background-color: #00ff00;
 }
 
 .statusOffline {
-  width: 12px;
-  height: 12px;
-  border-radius: 50%;
-  margin-right: 8px;
   background-color: #ff0000;
 }
 
